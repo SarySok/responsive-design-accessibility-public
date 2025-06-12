@@ -55,9 +55,15 @@
 
         section.grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr); /* 2 columns */
+            grid-template-columns: 1fr; /* default mobile layout */
             gap: 20px;
             padding: 40px 20px;
+        }
+
+        @media (min-width: 601px) {
+            section.grid {
+                grid-template-columns: repeat(2, 1fr); /* 2 columns for larger screens */
+            }
         }
 
         .grid-item {
