@@ -1,44 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Sary's Data Science Websource</title>
-        <link rel="icon" href="images/logo.jpeg" type="image/x-icon">
-        <meta charset="UTF-8">
-        <meta name="description" content="Data Science Roadmap">
-        <meta name="keywords" content="HTML, CSS, JavaScript">
-        <meta name="author" content="Sary Sok">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style/main.css">
-    </head>
+<head>
+    <title>Sary's Data Science Websource</title>
+    <link rel="icon" href="images/logo.jpeg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="description" content="Data Science Roadmap">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Sary Sok">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
 
-    <body>
-    <!-- Header and Navigation -->
+<div class="container">
+
     <header>
+        <div class="logo"><img src="images/logo.jpeg" alt="Sary Data Science Logo" title="Sary Data Science Logo"></div>
         <nav>
-            <figure class="logo">
-                <img src="images/logo.jpeg" alt="Sary Data Science Logo" title="Sary Data Science Logo">
-            </figure>
-            <ul>
-                <li><a href="index.html" class="active">Main</a></li>
-                <li><a href="pages/roadmap.html">Road Map</a></li>
-                <li><a href="pages/contact.html">Contact</a></li>
-                <!-- Link to Socials on same page -->
-                <li><a href="#connect">Socials</a></li>
-            </ul>
+            <a href="new.html" class="active">Main</a>
+            <a href="pages/roadmap.html">Road Map</a>
+            <a href="pages/contact.html">Contact</a>
         </nav>
     </header>
 
-    <!-- Main Content -->
-        <br>
-        <br>
-        <br>
-        <br>
-        <h1>Welcome</h1>
-        <p>
-            This website was originally created for personal use. However, as it developed, it became clear that it could serve as a valuable resource for those interested in Data Science. Here, you'll find my personal study notes, a record of my journey toward becoming a Data Scientist, and various resources such as roadmaps and relevant links to support others on a similar path.
-        </p>
+    <section class="hero">
+        <h1>Sary's Data Science Roadmap</h1>
+        <p>The place for data resources.</p>
         <hr>
-        <h2>Data Science</h2>
+        <figure class="about">
+                    <img src="images/anime_me.png" alt="anime self image" title="Sary Sok">
+                <figcaption>Animated self-image.</figcaption>
+        </figure>
+    </section>
+
+    <section class="grid">
+        <div class="grid-item">
+            <h1>Welcome</h1>
+                <p>
+                    This website was originally created for personal use. However, as it developed, it became clear that it could serve as a valuable resource for those interested in Data Science. Here, you'll find my personal study notes, a record of my journey toward becoming a Data Scientist, and various resources such as roadmaps and relevant links to support others on a similar path.
+                </p>
+        </div>
+
+        <div class="grid-item">
+            <h2>Data Science</h2>
 
         <p>A <strong>data scientist</strong> is a professional who uses scientific methods, algorithms, and systems to extract knowledge and insights from structured and unstructured data. Their work sits at the intersection of statistics, computer science, and domain expertise.</p>
 
@@ -70,15 +74,9 @@
         </ul>
 
         <p>In short, a data scientist turns raw data into strategic insights, helping organizations make informed decisions and gain a competitive advantage.</p>
-        <hr>
-        <!-- About Me Section -->
-        <article>
-                <h2>About Me</h2>
-                <!-- Self Image -->
-                <figure class="about">
-                    <img src="images/anime_me.png" alt="anime self image" title="Sary Sok">
-                <figcaption>Animated self-image.</figcaption>
-                </figure>
+        </div>
+        <div class="grid-item">
+            <h2>About Me</h2>
             <p>
                 My name is <strong>Sary Sok</strong>, and I am a second-year Data Science student at Mount Royal University. 
                 I am currently pursuing the university's Data Science program, which is outlined 
@@ -98,21 +96,31 @@
                 <br>
                 <br>
                 <strong>Disclosure:</strong> The previous paragraphs are entirely fictional and created for entertainment purposes only. Any resemblance to real events, achievements, or individuals is purely coincidental.
-            </p>
-        </article>
-        <!-- Social Media Links -->
-        <article>
-        <h3 id="connect">Connect with Me</h3>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/sarysok" target="_blank">LinkedIn</a></li>
-            <li><a href="https://github.com/SarySok" target="_blank">GitHub</a></li>
-            <li><a href="https://www.instagram.com/soks08" target="_blank">Instagram</a></li>
-        </ul>
-        </article>
-        <!-- Footer -->
-        <footer>
-            &copy; 2025 Sary Sok. All Rights Reserved.<!-- link to back to top of page --> <a href="#top">Back to Top</a>
-        </footer>
-    </body>
+            </p></div>
+        <div class="grid-item">
+            <h3 id="connect">Connect with Me</h3>
+            <a href="https://www.linkedin.com/in/sarysok" target="_blank">LinkedIn</a>
+            <a href="https://github.com/SarySok" target="_blank">GitHub</a>
+            <a href="https://www.instagram.com/soks08" target="_blank">Instagram</a>
+        </div>
+    </section>
 
+    <!-- <section class="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea rows="4" placeholder="Your Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section> -->
+
+    <footer>
+        &copy; 2025 Sary Sok. All Rights Reserved.<!-- link to back to top of page --> <a href="#top">Back to Top</a>
+    </footer>
+
+</div>
+
+</body>
 </html>
+
