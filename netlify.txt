@@ -1,1 +1,1 @@
-responsive-design-accessiblity.netlify.app
+https://responsive-design-accessiblity.netlify.app
